@@ -25,30 +25,20 @@ import javax.swing.JTextField;
 import javax.swing.table.DefaultTableModel;
 
 public class JdbcVectorTableEvnet extends JFrame {
-
 	/**
-	 *
 	 * @변수명 : serialVersionUID
-	 *
 	 * @설명 : 직렬화시 필요한 변수 선언
-	 *
 	 */
 	private static final long serialVersionUID = 1L;
 	/**
-	 *
 	 * @변수명 : data
-	 *
 	 * @설명 : 테이블에 표시될 데이터를 저장하는 벡터 변수 선언
-	 *
 	 */
 	@SuppressWarnings("rawtypes")
 	private Vector data = null;
 	/**
-	 *
 	 * @변수명 : title
-	 *
 	 * @설명 : 테이블에 표시될 타이틀을 저장하는 벡터 변수 선언
-	 *
 	 */
 
 	@SuppressWarnings("rawtypes")
@@ -459,6 +449,7 @@ public class JdbcVectorTableEvnet extends JFrame {
 			e.printStackTrace();
 		}
 	}
+
 	public static void main(String[] args) {
 		JdbcVectorTableEvnet frame = new JdbcVectorTableEvnet();
 //		내부 컴포넌트의 크기와 정렬 상태에 따라 프레임의 크기를 정함
